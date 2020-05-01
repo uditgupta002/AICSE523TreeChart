@@ -1,32 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c52e3cd-0663-4eb2-ab33-cd03115bfa93" name="Default Changelist" comment="" />
+    <list default="true" id="6c52e3cd-0663-4eb2-ab33-cd03115bfa93" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/input_folder/annotation_file.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/input_folder/main_data_1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/input_folder/main_data_2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/temp/test_file.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/temp/test_file_annotations.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/temp/test_file_result.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/treant-js-master/data/output_result.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main2.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/treant-js-master/example8.css" beforeDir="false" afterPath="$PROJECT_DIR$/treant-js-master/example8.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/treant-js-master/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/treant-js-master/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/treant-js-master/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/treant-js-master/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1a0MnJ0y4PCeM28yyRPQhVu94YD" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/treant-js-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/treant-js-master/data" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/treant-js-master" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/treant-js-master/data" />
+      <recent name="$PROJECT_DIR$/script/input_folder" />
       <recent name="$PROJECT_DIR$/treant-js-master" />
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/css" />
-      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/script/temp" />
+      <recent name="$PROJECT_DIR$/treant-js-master" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -46,10 +71,26 @@
       <workItem from="1586563019705" duration="1218000" />
       <workItem from="1587134247120" duration="7709000" />
       <workItem from="1587240658991" duration="1289000" />
+      <workItem from="1587845307359" duration="2477000" />
+      <workItem from="1588049578025" duration="177000" />
+      <workItem from="1588140157204" duration="3013000" />
+      <workItem from="1588197675059" duration="3357000" />
+      <workItem from="1588215180976" duration="2487000" />
+      <workItem from="1588366015149" duration="1618000" />
+      <workItem from="1588370247267" duration="1457000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="427" y="76" key="RollbackChangesDialog" timestamp="1588372251895">
+      <screen x="0" y="24" width="1366" height="744" />
+    </state>
+    <state x="427" y="76" key="RollbackChangesDialog/0.24.1366.744@0.24.1366.744" timestamp="1588372251895" />
   </component>
 </project>

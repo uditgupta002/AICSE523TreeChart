@@ -2,15 +2,21 @@ import pandas as pd
 import glob
 import os
 
-def process_file(file_path):
+def process_file(dir_path):
 
-  file_name = file_path.split('.')
-  annotation_file_name = file_name[0] + '_annotations' + '.' + file_name[1]
-  result_file_name = file_name[0] + '_result' + '.' + file_name[1]
+  file_path_list = glob.glob(dir_path + "/*.csv")
+  main_dataframe = pd.DataFrame()
+  for file_path in file_path_list:
+    if('annotations' in file_path or 'result' in file_path):
+      continue
+    else:
+      dataframe = pd.read_csv(file_path)
+      main_dataframe = pd.concat([main_dataframe, dataframe])
 
-
-  dataframe = pd.read_csv(file_path)
-  annotation_dataframe = pd.read_csv(annotation_file_name, names=['parentId','ID','Col1','Col2','Col3','Col4'])
+  #file_name = file_path.split('.')
+  annotation_file_name = os.path.join(dir_path, 'annotations.tsv')
+  result_file_name = 'output_result.csv'
+  annotation_dataframe = pd.read_csv(annotation_file_name,names=['Quality', 'parentId','ID','Col1','Col2'], sep='\t', header=0)
 
   #Convert to all strs
   dataframe['ID'] = dataframe['ID'].astype('str')
@@ -62,9 +68,4 @@ def process_file(file_path):
 
 
 input_folder_path = '/content/drive/My Drive/cse523data/input_folder'
-
-file_path_list = glob.glob(input_folder_path + "/*.csv")
-for file_path in file_path_list:
-  if('_annotations' in file_path or '_result' in file_path):
-    continue
-  process_file(file_path)
+process_file(input_folder_path)
